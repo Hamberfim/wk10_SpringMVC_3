@@ -1,2 +1,2 @@
-# wk10_SpringMVC_3
+### wk10 Spring MVC
 SPRING MVC project
