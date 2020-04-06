@@ -34,4 +34,5 @@ function validateForm() {
     alert("Car plate number must be filled out");
     return false;
   }
+  
 }

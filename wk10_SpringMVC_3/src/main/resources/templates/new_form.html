@@ -11,8 +11,8 @@
 	<div align="center">
 		<h1>Enter New Student Record</h1>
 		<br />
-		<form action="#" th:action="@{/save}" th:object="${student}" onsubmit="return validateForm()" method="post" name="registration" id="registration">
-		<table border="1" cellpadding="7">
+		<form action="#" th:action="@{/save}" th:object="${student}" onsubmit="return validateForm()"method="post" name="registration" id="registration">
+		<table border="1" cellpadding="8">
 		<tr>
 			<td>First Name: </td>
 			<td><input type="text" th:field="*{firstname}" name="firstname" id="firstname"></td>
